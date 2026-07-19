@@ -1,115 +1,122 @@
-# PhonePe-Transaction-Analytics
-Interactive PhonePe transaction analytics dashboard built with Power BI, DAX, and Python for business intelligence and data analysis.
-
-
 # 📊 PhonePe Transaction Analytics Dashboard
 
-## Overview
+An end-to-end analytics project built using **Python** and **Power BI** to analyze PhonePe transaction data. The project combines data preprocessing, exploratory data analysis (EDA), statistical analysis, feature engineering, and interactive business intelligence to uncover meaningful transaction patterns and user behavior.
 
-An end-to-end analytics project built using **Python** and **Power BI** to analyze PhonePe transaction data. The project combines data preprocessing, exploratory data analysis (EDA), feature engineering, statistical analysis, and interactive business intelligence to uncover meaningful transaction patterns and user behavior.
-
-The workflow begins with Python-based data preparation and analysis, followed by the development of an interactive Power BI dashboard featuring KPIs, DAX measures, dynamic insights, custom tooltips, and drill-down capabilities.
+The workflow begins with Python-based data preparation and analysis, followed by the development of an interactive Power BI dashboard featuring KPIs, DAX measures, custom tooltips, and dynamic business insights.
 
 ---
 
-## Dashboard Preview
+## 🚀 Features
 
-![PhonePe Dashboard](Images/Dashboard.png)
+- 📈 Interactive Power BI Dashboard
+- 📊 KPI Cards with Month-over-Month (MoM) Analysis
+- 📅 Dynamic Weekday vs Weekend Insights
+- 💳 Dynamic Highest Transaction Service Detection
+- 👥 Age-wise User Segmentation
+- 🏆 Top 5 Users by Transaction Value
+- 📉 Transaction Trend Analysis
+- 🎯 Interactive Slicers & Report Page Tooltips
+- 🐍 Python-based Exploratory Data Analysis (EDA)
+- 📐 Statistical Analysis using SciPy
 
 ---
+
+## 📷 Dashboard Preview
+
+![Dashboard](Images/Dashboard.png)
+
+---
+
 ## 📂 Project Workflow
 
 | Stage | Description |
 |-------|-------------|
-| 📥 Data Collection | Raw Excel Dataset |
-| 🧹 Data Cleaning | Cleaned and transformed data using Python |
-| ⚙️ Feature Engineering | Created age groups, date features, derived columns |
-| 📊 Exploratory Data Analysis | Analyzed trends and distributions |
-| 📈 Statistical Analysis | Performed hypothesis testing and RFM analysis |
-| 🗄️ Data Modeling | Built relationships and measures in Power BI |
-| 📉 Dashboard Development | Designed interactive visualizations |
-| 💡 Business Insights | Generated dynamic DAX-based insights |---
-
-## Python Analysis
-
-The dataset was analyzed using Python before building the dashboard.
-
-### Tasks Performed
-
-- Data Cleaning & Preprocessing
-- Feature Engineering
-- Date Transformation
-- Age Segmentation (Gen Z, Millennials, Gen X, Boomers)
-- Exploratory Data Analysis (EDA)
-- Transaction Failure Analysis
-- Service-wise Transaction Analysis
-- RFM Segmentation
-- Correlation & Statistical Analysis (SciPy)
-- Data Visualization using Matplotlib & Seaborn
+| 📥 Data Collection | Imported PhonePe transaction and user datasets from Excel |
+| 🧹 Data Cleaning | Cleaned, transformed, and standardized the datasets using Python |
+| ⚙️ Feature Engineering | Created age groups, date features, and derived columns for analysis |
+| 📊 Exploratory Data Analysis | Analyzed transaction trends, user behavior, and service usage |
+| 📈 Statistical Analysis | Performed hypothesis testing and RFM segmentation using SciPy |
+| 🗄️ Data Modeling | Built relationships and DAX measures in Power BI |
+| 📉 Dashboard Development | Designed interactive dashboards with KPIs, charts, slicers, and tooltips |
+| 💡 Business Insights | Generated dynamic DAX-based insights that automatically update with filters |
 
 ---
 
-## Power BI Dashboard Features
+## 🐍 Python Analysis
 
-### KPI Cards
+The dataset was analyzed and prepared using Python before creating the Power BI dashboard.
 
-- Total Transactions
-- Total Transaction Value
-- Unique Users
-- Successful Transaction Rate
-- Month-over-Month Growth (%)
-
-### Interactive Visualizations
-
-- Transaction Trends Over Time
-- Service-wise Transaction Value Analysis
-- Age Segment Contribution
-- Top 5 Users by Transaction Value
-- Weekday vs Weekend Transaction Analysis
-
-### Interactive Features
-
-- Month Slicer
-- Payment Status Filter
-- Report Page Tooltips
-- Dynamic DAX Measures
-- Responsive KPI Cards
+| Module | Purpose |
+|---------|---------|
+| 🧹 Data Cleaning | Removed inconsistencies and prepared the dataset |
+| ⚙️ Feature Engineering | Created age segments and date-related features |
+| 📊 Exploratory Data Analysis | Analyzed transaction patterns and user behavior |
+| 💳 Service Analysis | Compared transaction value across different services |
+| ❌ Failure Analysis | Examined successful and failed transactions |
+| 👥 RFM Analysis | Segmented users based on transaction behavior |
+| 📈 Statistical Analysis | Performed hypothesis testing using SciPy |
+| 📉 Data Visualization | Created charts using Matplotlib and Seaborn |
 
 ---
 
-## Dynamic Business Insights
+## 📈 Power BI Dashboard Features
 
-The dashboard automatically generates insights based on the selected filters.
-
-Examples include:
-
-- **Transactions peak on weekdays.**
-- **Loans generate the highest transaction value.**
-
-These insights update dynamically based on user selections, providing context-aware business observations.
-
----
-
-## DAX Measures
-
-The dashboard includes several DAX measures such as:
-
-- Total Transactions
-- Total Transaction Value
-- Unique Users
-- Successful Rate
-- Transactions Previous Month
-- Transaction Value Previous Month
-- Transactions MoM %
-- Transaction Value MoM %
-- Dynamic Insight Measures
+| Category | Features |
+|----------|----------|
+| 📊 KPI Cards | Total Transactions, Transaction Value, Unique Users, Success Rate, MoM Growth |
+| 📈 Trend Analysis | Monthly Transaction Trends |
+| 👥 User Analysis | Age Segment Contribution & Top 5 Users |
+| 💳 Service Analysis | Service-wise Transaction Value |
+| 📅 Time Analysis | Weekday vs Weekend Transactions |
+| 🎯 Interactive Features | Month Slicer, Payment Status Filter, Report Page Tooltips |
+| 💡 Dynamic Insights | DAX-powered business insights that update with filters |
 
 ---
 
-## Tech Stack
+## 💡 Dynamic Business Insights
+
+The dashboard automatically generates business insights based on the selected filters.
+
+Some examples include:
+
+- 📅 Transactions peak on weekdays.
+- 💳 Loans generate the highest transaction value.
+- 👥 Gen X and Millennials contribute almost equally to overall transactions.
+
+These insights are generated dynamically using DAX measures and automatically update based on user selections.
+
+---
+
+## 🧮 Key DAX Measures
+
+| Measure | Purpose |
+|---------|----------|
+| Total Transactions | Calculates the total number of successful transactions |
+| Total Transaction Value | Calculates total transaction value |
+| Unique Users | Counts unique users |
+| Success Rate | Calculates successful transaction percentage |
+| Transactions PM | Previous Month Transactions |
+| Transaction Value PM | Previous Month Transaction Value |
+| Transactions MoM % | Month-over-Month Transaction Growth |
+| Transaction Value MoM % | Month-over-Month Transaction Value Growth |
+| Dynamic Insight Measures | Generates context-aware business insights |
+
+---
+
+## 📌 Key Business Insights
+
+- 💳 Loans contribute the highest transaction value among all services.
+- 📅 Weekdays account for the highest transaction volume.
+- 👥 Gen X and Millennials contribute nearly equally to total transactions.
+- 📈 Transaction trends can be explored interactively using slicers and filters.
+
+---
+
+## 🛠️ Tech Stack
 
 ### Python
 
+- Python
 - Pandas
 - NumPy
 - Matplotlib
@@ -125,24 +132,26 @@ The dashboard includes several DAX measures such as:
 
 ---
 
-## Skills Demonstrated
+## 🎯 Skills Demonstrated
 
 - Data Cleaning
+- Data Transformation
 - Feature Engineering
-- Exploratory Data Analysis
+- Exploratory Data Analysis (EDA)
 - Statistical Analysis
-- Data Visualization
 - Business Intelligence
 - Dashboard Design
-- Data Modeling
+- Power BI
 - DAX
 - Power Query
+- Data Modeling
 - Interactive Reporting
 - Business Storytelling
+- Data Visualization
 
 ---
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```text
 PhonePe-Transaction-Analytics/
@@ -161,8 +170,12 @@ PhonePe-Transaction-Analytics/
 ├── Data/
 │   └── PhonePe-Final-Dataset.xlsx
 │
-├── README.md
-└── requirements.txt
+├── requirements.txt
+└── README.md
 ```
 
 ---
+
+## ⭐ Acknowledgements
+
+This project was developed for learning and portfolio purposes to demonstrate data analysis, business intelligence, dashboard development, and storytelling using Python and Power BI.
