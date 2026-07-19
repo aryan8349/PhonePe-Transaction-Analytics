@@ -19,31 +19,16 @@ The workflow begins with Python-based data preparation and analysis, followed by
 ---
 ## 📂 Project Workflow
 
-```text
-Raw Excel Data
-      │
-      ▼
-Data Cleaning & Transformation (Python)
-      │
-      ▼
-Feature Engineering
-      │
-      ▼
-Exploratory Data Analysis (EDA)
-      │
-      ▼
-Statistical Analysis
-      │
-      ▼
-Power BI Data Modeling
-      │
-      ▼
-Interactive Dashboard
-      │
-      ▼
-Business Insights
-```
----
+| Stage | Description |
+|-------|-------------|
+| 📥 Data Collection | Raw Excel Dataset |
+| 🧹 Data Cleaning | Cleaned and transformed data using Python |
+| ⚙️ Feature Engineering | Created age groups, date features, derived columns |
+| 📊 Exploratory Data Analysis | Analyzed trends and distributions |
+| 📈 Statistical Analysis | Performed hypothesis testing and RFM analysis |
+| 🗄️ Data Modeling | Built relationships and measures in Power BI |
+| 📉 Dashboard Development | Designed interactive visualizations |
+| 💡 Business Insights | Generated dynamic DAX-based insights |---
 
 ## Python Analysis
 
