@@ -14,7 +14,7 @@ The workflow begins with Python-based data preparation and analysis, followed by
 
 ## Dashboard Preview
 
-![PhonePe Dashboard](Images/dashboard.png)
+![PhonePe Dashboard](Images/Dashboard.png)
 
 ---
 
