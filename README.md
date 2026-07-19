@@ -17,29 +17,32 @@ The workflow begins with Python-based data preparation and analysis, followed by
 ![PhonePe Dashboard](Images/Dashboard.png)
 
 ---
+## 📂 Project Workflow
 
-## Project Workflow
-
+```text
 Raw Excel Data
-⬇️
-
+      │
+      ▼
 Data Cleaning & Transformation (Python)
-⬇️
-
+      │
+      ▼
 Feature Engineering
-⬇️
-
+      │
+      ▼
 Exploratory Data Analysis (EDA)
-⬇️
-
+      │
+      ▼
 Statistical Analysis
-⬇️
-
+      │
+      ▼
 Power BI Data Modeling
-⬇️
-
-Interactive Dashboard & Business Insights
-
+      │
+      ▼
+Interactive Dashboard
+      │
+      ▼
+Business Insights
+```
 ---
 
 ## Python Analysis
