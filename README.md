@@ -20,6 +20,15 @@ The workflow begins with Python-based data preparation and analysis, followed by
 - 📐 Statistical Analysis using SciPy
 
 ---
+---
+
+## 🎥 Dashboard Demo
+
+<p align="center">
+  <img src="Images/Dashboard.gif" width="900">
+</p>
+
+---
 
 ## 📷 Dashboard Preview
 
